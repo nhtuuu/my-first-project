@@ -48,3 +48,13 @@ button {
     font-weight: lighter;
     color: #1f2937;
 }
+
+.nav {
+    display: flex;
+    flex: 1;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+}
