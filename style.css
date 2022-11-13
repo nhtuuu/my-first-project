@@ -1,11 +1,30 @@
 body {
     font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .header,
 .footer {
     background-color: #1f2937;
     color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    padding: 30px 150px 60px 150px;
+}
+
+.intro {
+    padding: 50px 0;
+}
+
+.button1 {
+    margin-top: 12px;
 }
 
 .intro-main {
@@ -26,10 +45,17 @@ body {
 
 button {
     background-color: #3882F6;
+    width: 100px;
+    color: #f9faf8;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 4px;
+    border-color: #f9faf8;
 }
 
-.contact {
-    background-color: #3882F6;
+.main {
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .main-header {
@@ -51,10 +77,76 @@ button {
 
 .nav {
     display: flex;
-    flex: 1;
 }
 
 .link {
     display: flex;
+    flex: 1;
     justify-content: flex-end;
+    gap: 24px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    gap: 60px;
+    text-align: center;
+    margin: 64px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 80px;
+}
+
+.author {
+    margin-left: 120px;
+}
+
+.contact {
+    margin: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 26px;
 }
