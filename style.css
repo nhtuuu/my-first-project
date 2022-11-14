@@ -80,6 +80,7 @@ button {
 
 .nav {
     display: flex;
+    width: 100%;
 }
 
 .link {
@@ -91,22 +92,30 @@ button {
 
 .intro {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .intro-text {
     display: flex;
     flex-direction: column;
-    flex-basis: 600px;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    flex: 1 1 auto;
 }
 
-.images1 img {
+.images1 {
     width: 700px;
     height: 350px;
     max-width: 100%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main {
