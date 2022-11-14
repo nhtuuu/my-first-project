@@ -1,5 +1,8 @@
 body {
     font-family: "Roboto";
+}
+
+.container {
     display: flex;
     flex-direction: column;
 }
